@@ -1,3 +1,5 @@
+package tema2;
+
 public class RegistroAlumno {
 
     public static void main(String[] args) {

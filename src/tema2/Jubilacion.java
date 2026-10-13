@@ -1,3 +1,5 @@
+package tema2;
+
 import java.util.Scanner;
 
 public class Jubilacion { //algoritmo
@@ -15,7 +17,7 @@ public class Jubilacion { //algoritmo
         if(edad >= EDAD_JUBILACION) { // SI edad >= 65 entonces....... true o false
             System.out.println(nombre + " Tiene " + edad + " años y esta listo para jubilarse");
         }
-        else if (edad >= 18) { //inicio else-if
+        else if (edad >= MAYORIA_DE_EDAD && edad < EDAD_JUBILACION) { //inicio else-if
             System.out.printf(nombre+ " Es mayor de edad");
         } //fin else-if
         else{ //sino
